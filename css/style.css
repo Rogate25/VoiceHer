@@ -297,3 +297,56 @@ button:hover {
     margin-bottom: 50px;
     font-weight: 300;
 }
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px; 
+    }
+
+    .hero h1 {
+        font-size: 36px; 
+    }
+
+    .hero h4 {
+        font-size: 18px; 
+    }
+
+    button {
+        font-size: 14px;
+        width: 100%; 
+    }
+
+    .flex-box {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .icon-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc-box {
+        padding: 15px;             
+    }
+
+    .icon-container i {
+        margin: 5px 0;             
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    .hero {
+        padding: 30px 10px; 
+    }
+
+    .desc-container {
+        padding: 10px; 
+    }
+
+    .desc-box {
+        padding: 10px;             
+    }
+}
