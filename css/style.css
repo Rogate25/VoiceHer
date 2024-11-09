@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -10,17 +8,11 @@
 }
 
 nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 25px 45px;
     background-color: #418CFC;
-    z-index: 10; 
 }
 
 h2{
@@ -32,7 +24,7 @@ h2{
 ul,a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -59,11 +51,307 @@ button{
 }
 
 button:hover{
-    background-color: white;
-    color: orange;
+    background-color: orange;
+    color: white;
+    transition: all 1s;
+}
+
+.hero{
+    padding: 95px 45px;
+    background-color: #418CFC;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 90px;
+    color: white;
+}
+
+.hero h4{
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+}
+
+.hero span{
+    font-weight: 500;
+}
+
+.event h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.event hr{
+    width: 90%;
+    margin: auto;
+}
+
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.flex-box {
+    width: 30%; 
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+
+.flex-box:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35); 
+  }
+  
+.flex-box img {
+    width: 100%; 
+    height: auto;
+    border-radius: 5px;
+  }
+  
+.flex-box h4 {
+    font-size: 15px;
+    color: black;
+    font-weight: 350;
+  }
+  
+.flex-box span {
+    display: block;
+    font-size: 14px;
+    color: grey;
+    font-weight: 300;
+  }
+
+footer{
+    padding: 50px;
+    color: white;
+    background-color: #418CFC;
+    text-align: center;
+    font-weight: bold;
+}
+  
+.desc-img img{
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35); 
+}
+
+.desc-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.desc-box {
+    width: 65%; 
+    background:none;
+    color: black;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.desc-box h1{
+    text-align: center;
+}
+.desc-box p{
+    text-align: justify;
+}
+
+.icon-container {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.icon-container i {
+    font-size: 18px; 
+    color: black; 
+}
+
+.desc-box button{
+    font-size: 20px;
+    background-color: #418CFC;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.desc-box button:hover{
+    background-color: #EEBCDA;
+    color: white;
     transition: all 0.4s;
 }
 
+.Inspiration h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Inspiration hr{
+    width: 90%;
+    margin: auto;
+}
+
+.Inspiration-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.Inspiration-box{
+    width: 65%; 
+    background:none;
+    color: black;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.stories-container {
+    max-width: 400px; 
+    margin: auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    margin-bottom: 50px;
+    background-color: #f9f9f9; 
+}
+
+label {
+    margin-top: 10px; 
+    display: block; 
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.stories-box button {
+    padding: 10px 15px; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: orange; 
+}
+
+.form-title h1,h5{
+    text-align: center;
+}
+
+.form-title h1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.form-title h5{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px; 
+    }
+
+    .hero h1 {
+        font-size: 36px; 
+    }
+
+    .hero h4 {
+        font-size: 18px; 
+    }
+
+    button {
+        font-size: 14px;
+        width: 100%; 
+    }
+
+    .flex-box {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .icon-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc-box {
+        padding: 15px;             
+    }
+
+    .icon-container i {
+        margin: 5px 0;             
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    .hero {
+        padding: 30px 10px; 
+    }
+
+    .desc-container {
+        padding: 10px; 
+    }
+
+    .desc-box {
+        padding: 10px;             
+    }
+}
+
+/* homepage css */
 /* homepage css */
 .tagline {
     position: relative;
@@ -397,273 +685,8 @@ button:hover{
 
 /* end of homepage css */
 
-/* EVENT, INSPIRATION */
-.flex-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-  
-.flex-box {
-    width: 30%; 
-    background: white;
-    color: black;
-    padding: 15px;
-    border-radius: 20px;
-    margin: 10px;
-    margin-top: 50px;
-    box-sizing: border-box;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
-    transition: transform 0.3s, box-shadow 0.3s; 
-}
-
-.flex-box:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35); 
-}
-
-.flex-box img {
-    width: 100%; 
-    height: auto;
-    border-radius: 5px;
-}
-  
-.flex-box h4 {
-    font-size: 15px;
-    color: black;
-    font-weight: 350;
-}
-  
-.flex-box span {
-    display: block;
-    font-size: 14px;
-    color: grey;
-    font-weight: 300;
-}
-
-footer{
-    padding: 50px;
-    color: white;
-    background-color: #418CFC;
-    text-align: center;
-    font-weight: bold;
-}
-  
-.desc-img img{
-    width: 65%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35); 
-}
-
-.desc-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-.desc-box {
-    width: 65%; 
-    background:none;
-    color: black;
-    padding: 40px;
-    border-radius: 5px;
-    margin: 10px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-    box-sizing: border-box;
-    overflow: hidden;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-}
-
-.desc-box h1{
-    text-align: center;
-}
-.desc-box p{
-    text-align: justify;
-}
-
-.icon-container {
-    display: flex; 
-    justify-content: space-between; 
-}
-
-.icon-container i {
-    font-size: 18px; 
-    color: black; 
-}
-
-.desc-box button{
-    font-size: 20px;
-    background-color: #418CFC;
-    border: none;
-    border-radius: 7px;
-    padding: 15px 100px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.desc-box button:hover{
-    background-color: #EEBCDA;
-    color: white;
-    transition: all 0.4s;
-}
-
-.Inspiration h3{
-    text-align: center;
-    padding-top: 30px;
-}
-
-.Inspiration hr{
-    width: 90%;
-    margin: auto;
-}
-
-.Inspiration-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-.Inspiration-box{
-    width: 65%; 
-    background:none;
-    color: black;
-    padding: 40px;
-    border-radius: 5px;
-    margin: 10px;
-    margin-top: 40px;
-    box-sizing: border-box;
-    overflow: hidden;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-}
-
-.stories-container {
-    max-width: 400px; 
-    margin: auto; 
-    padding: 20px; 
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
-    margin-bottom: 50px;
-    background-color: #f9f9f9; 
-}
-
-label {
-    margin-top: 10px; 
-    display: block; 
-}
-
-input, textarea {
-    width: 100%; 
-    padding: 10px; 
-    margin: 10px 0; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-}
-
-.stories-box button {
-    padding: 10px 15px; 
-    background-color: #007BFF; 
-    color: white; 
-    border: none; 
-    border-radius: 4px;
-    cursor: pointer; 
-    font-size: 16px; 
-}
-
-button:hover {
-    background-color: orange; 
-}
-
-.form-title h1,h5{
-    text-align: center;
-}
-
-.form-title h1{
-    margin-top: 50px;
-    font-size: 50px;
-}
-
-.form-title h5{
-    font-size: 20px;
-    margin-bottom: 50px;
-    font-weight: 300;
-}
-
-@media (max-width: 768px) {
-    h2 {
-        font-size: 24px; 
-    }
-
-    .hero h1 {
-        font-size: 36px; 
-    }
-
-    .hero h4 {
-        font-size: 18px; 
-    }
-
-    button {
-        font-size: 14px;
-        width: 100%; 
-    }
-
-    .flex-box {
-        width: 100%; 
-        margin: 10px 0; 
-    }
-
-    .icon-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .desc-box {
-        padding: 15px;             
-    }
-
-    .icon-container i {
-        margin: 5px 0;             
-    }
-}
-
-@media (max-width: 480px) {
-
-
-    .hero {
-        padding: 30px 10px; 
-    }
-
-    .desc-container {
-        padding: 10px; 
-    }
-
-    .desc-box {
-        padding: 10px;
-    }
-}
-/* END OF EVENT */
 
 /* ABOUT US */
-
 #header {
     width: 100vw;
     min-height: 100vh;
@@ -920,4 +943,3 @@ button:hover {
 }
 
 /* About Us CSS END HERE */
-
