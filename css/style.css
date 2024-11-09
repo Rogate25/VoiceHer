@@ -558,18 +558,128 @@ button:hover {
 }
 
 .box-quote {
-    max-width: 70rem;
+    max-width: 90%;
     text-align: center;
-    padding: 10rem 5rem;
-    justify-content: center;
-    align-items: center;
-    transform: translateX(10rem);
+    padding: 15rem 5rem 2rem;
+    margin: 0 auto;
     font-weight: 600;
     font-size: 1.5rem;
     color: #fff;
 }
 
-.quote, .quoteFrom{
-    margin-top: 7rem;
-    margin-bottom: -7rem;
+.quote {
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
+
+.quoteFrom {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Responsive Styles for home page*/
+@media screen and (max-width: 1200px) {
+    .tagline-text1 {
+        font-size: 3rem;
+    }
+
+    .tagline-text2 {
+        font-size: 1.3rem;
+    }
+
+    .container, .container2 {
+        margin: 3rem 2rem;
+    }
+
+    .box-event {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tagline-text1 {
+        font-size: 2.5rem;
+    }
+
+    .tagline-text2 {
+        font-size: 1.2rem;
+    }
+
+    .box-event {
+        width: 45%;
+    }
+
+    .activities {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .activity-card, .activity-card2 {
+        margin-bottom: 20px;
+    }
+
+    .box-quote {
+        padding: 10rem 1.5rem 3rem;
+        font-size: 1.2rem;
+    }
+
+    .quote {
+        font-size: 1.3rem;
+    }
+
+    .quoteFrom {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tagline-text1 {
+        font-size: 2rem;
+    }
+
+    .tagline-text2 {
+        font-size: 1rem;
+    }
+
+    .container, .container2 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 2rem 1rem;
+    }
+
+    .home-line {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .box-event {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .see-more1, .see-more2 {
+        width: 6rem;
+    }
+
+    .activities {
+        grid-template-columns: 1fr;
+    }
+
+    .activity-card, .activity-card2 {
+        width: 100%;
+    }
+
+    .box-quote {
+        padding: 10rem 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .quote {
+        font-size: 1.2rem;
+    }
+
+    .quoteFrom {
+        font-size: 0.9rem;
+    }
+}
+
+/* end of homepage css */
