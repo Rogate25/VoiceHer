@@ -398,6 +398,79 @@ button:hover{
 /* end of homepage css */
 
 /* EVENT, INSPIRATION */
+h2{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+ul,a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(255, 179, 37);
+    transition: all 0.3s;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button{
+    font-size: 18px;
+    background-color: #EEBCDA;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+    transition: all 1s;
+}
+
+.hero{
+    padding: 95px 45px;
+    background-color: #418CFC;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 90px;
+    color: white;
+}
+
+.hero h4{
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+}
+
+.hero span{
+    font-weight: 500;
+}
+
+.event h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.event hr{
+    width: 90%;
+    margin: auto;
+}
+
 .flex-container {
     width: 100%;
     height: auto;
