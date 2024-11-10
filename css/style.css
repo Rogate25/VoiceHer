@@ -912,21 +912,12 @@ button:hover {
 
 
 @media (max-width: 480px) {
-    nav {
-        flex-direction: column;
-        padding: 15px;
-    }
-
     h2 {
         font-size: 24px;
     }
 
     ul {
         display: none;
-    }
-
-    nav button {
-        padding: 8px 16px;
     }
 
     .about-title h1, .what-we-do-title h1 {
