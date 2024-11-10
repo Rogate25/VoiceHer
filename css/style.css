@@ -689,5 +689,255 @@ button:hover {
         font-size: 0.9rem;
     }
 }
-
 /* end of homepage css */
+
+
+/* ABOUT US */
+
+#header {
+    width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.image img{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.header-content h1{
+    font-family: 'Outfit';
+}
+
+#about-us {
+    position: relative;
+    width: 100%;
+    padding: 50px 4%; 
+    margin-top: 50px;
+}
+
+.about-section {
+    position: relative;
+    width: 100%;
+    max-width: 1312px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.about-title h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    color: rgba(0, 0, 0, 0.81);
+    text-align: center; 
+    margin: 0; 
+    padding: 20px 0;
+}
+
+.rectangle {
+    position: relative; 
+    width: 100%; 
+    max-width: 1312px; 
+    height: 315px;
+    margin: 0 auto; 
+    background: #FFFFFF;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 50px; 
+    margin-bottom: 50px;
+}
+
+.about-description {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5vw; 
+    line-height: 1.5;
+    color: #000000;
+    text-align: justify; 
+    margin: 0; 
+}
+
+#what-we-do {
+    position: relative;
+    width: 100%;
+    max-width: 3000x;
+    margin-top: 600px;
+    padding: 20px 0;
+}
+
+.what-we-do-title h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 4vw; 
+    color: #000000;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.wwd-background {
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-start; 
+    background: #418CFC;
+    padding: 20px 0;
+}
+
+.flex-box {
+    width: 30%; 
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35); 
+}
+
+  
+.flex-box img {
+    width: 100%; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.flex-box h3 {
+    font-family: 'Outfit', sans-serif;
+    color: #EEBCDA;
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.flex-box h4 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#quotes {
+    position: relative;
+    width: 100%;
+    height: auto; 
+    background: #9f3939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: 300px;
+}
+
+.quote-container {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.quote-text {
+    width: 100%; 
+    font-family: otomanopee-one, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw; 
+    line-height: 1.5;
+    margin: 0;
+}
+
+.quote-author {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+    font-size: 3vw; 
+    line-height: 1.2;
+    margin-top: 20px; 
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    height: 156px;
+    background: #418CFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+
+.footer-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px; 
+    }
+
+    button {
+        font-size: 14px;
+        width: 100%; 
+    }
+
+    .flex-box {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .about-title h1, .what-we-do-title h1 {
+        font-size: 2rem;
+    }
+
+    .box-title {
+        font-size: 1.25rem;
+    }
+
+    .quote-text {
+        font-size: 1.25rem;
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .about-title h1, .what-we-do-title h1 {
+        font-size: 1.75rem;
+    }
+
+    .about-description, .box-description, .quote-text {
+        font-size: 1rem;
+    }
+
+    .footer-text {
+        font-size: 0.8rem;
+    }
+}
+
+/* About Us CSS END HERE */
